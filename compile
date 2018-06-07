@@ -1,0 +1,7 @@
+#!/bin/sh
+cc op.c cpfromdisk.c -o cpfromdisk
+cc op.c cptodisk.c -o cptodisk
+cc op.c create.c -o create
+cc op.c diag.c -o diag
+cc op.c ls.c -o ls
+cc op.c rm.c -o rm
